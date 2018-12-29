@@ -7,9 +7,7 @@ main()
     char ch;
     // create object of file
     fin.open("abcde.txt");
-
-    fout<<"writyetext";
-    
+    fout<<"writyetext"; 
     while(!fin.eof())
     {
         fin>>ch;
