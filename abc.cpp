@@ -15,6 +15,7 @@ main()
         fin>>ch;
         cout<<ch;
     }
+    endl(cout);
     fin.close();
     return 0;
 }
