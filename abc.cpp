@@ -5,6 +5,7 @@ main()
 {
     ifstream fin; ofstream fout;
     char ch;
+    // create object of file
     fin.open("abcde.txt");
 
     fout<<"writyetext";
